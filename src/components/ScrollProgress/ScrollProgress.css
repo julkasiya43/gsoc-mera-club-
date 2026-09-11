@@ -1,0 +1,30 @@
+/* ===== TOP SCROLL PROGRESS INDICATOR ===== */
+.scroll-progress-track {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 10000;
+    background: transparent;
+    pointer-events: none;
+}
+
+.scroll-progress-bar {
+    height: 100%;
+    background: var(--gradient-brand);
+    position: relative;
+    box-shadow: var(--shadow-glow-purple);
+    transition: width 0.1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-progress-glow-tip {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    bottom: -2px;
+    width: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 16px var(--color-accent-cyan), 0 0 24px var(--color-accent-purple);
+}

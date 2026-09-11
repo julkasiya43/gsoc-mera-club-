@@ -1,0 +1,319 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 16px 20px;
+    pointer-events: none;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.header.header-hidden {
+    transform: translateY(-120%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navbar {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 24px;
+    background: var(--color-bg-secondary);
+    background-color: color-mix(in srgb, var(--color-bg-secondary) 82%, transparent);
+    backdrop-filter: blur(28px);
+    -webkit-backdrop-filter: blur(28px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-full);
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), var(--shadow-glow-purple);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: auto;
+}
+
+.navbar:hover {
+    border-color: var(--color-accent-purple);
+    box-shadow: 0 12px 40px -5px rgba(0, 0, 0, 0.6), var(--shadow-glow-purple);
+}
+
+/* Mobile Hamburger */
+.mobile-hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 1001;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.mobile-hamburger:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.mobile-hamburger img {
+    width: 22px;
+    height: auto;
+}
+
+/* Branding */
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.branding-logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo-glow-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-glow-wrap::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: var(--gradient-brand);
+    border-radius: 50%;
+    opacity: 0.6;
+    filter: blur(6px);
+    transition: opacity 0.3s ease;
+}
+
+.logo-glow-wrap:hover::before {
+    opacity: 1;
+    filter: blur(8px);
+}
+
+.club-logo {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.brand-name {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 1.1;
+}
+
+.brand-gsoc {
+    font-family: var(--font-heading);
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    background: linear-gradient(135deg, #ffffff 40%, var(--color-accent-soft) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.brand-sub {
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* Navigation Group */
+.nav-center-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 4px 6px;
+    border-radius: var(--radius-full);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cmd-trigger-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-full);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cmd-trigger-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-accent-purple);
+    color: #fff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1px);
+}
+
+.cmd-icon-mini {
+    color: var(--color-accent-purple);
+}
+
+.cmd-trigger-kbd {
+    font-family: var(--font-brand);
+    font-size: 11px;
+    font-weight: 600;
+    color: #e2e8f0;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 1.5px 5px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.nav-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    position: relative;
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    padding: 7px 16px;
+    border-radius: var(--radius-full);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.nav-link.active {
+    color: #ffffff;
+    font-weight: 600;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(6, 182, 212, 0.2));
+    border: 1px solid rgba(168, 85, 247, 0.4);
+    box-shadow: 0 0 16px rgba(168, 85, 247, 0.35);
+}
+
+.nav-btn-follow {
+    color: #c084fc;
+}
+
+.nav-btn-follow:hover {
+    color: #fff;
+    background: rgba(168, 85, 247, 0.2);
+}
+
+/* Right Group: University Logo & Action CTA */
+.header-right-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.vitb-logo-link {
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.vitb-logo-link:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+.vitb-logo {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
+}
+
+.btn-join-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 15px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 700;
+    color: #090a12;
+    background: var(--gradient-brand);
+    border-radius: var(--radius-full);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-join-pill:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-glow-cyan);
+    color: #000;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .navigation {
+        display: none;
+    }
+
+    .mobile-hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 14px;
+    }
+
+    .navbar {
+        padding: 8px 14px;
+        border-radius: 16px;
+    }
+
+    .club-logo {
+        width: 36px;
+        height: 36px;
+    }
+
+    .brand-gsoc {
+        font-size: 15px;
+    }
+
+    .brand-sub {
+        font-size: 9.5px;
+    }
+
+    .vitb-logo {
+        height: 30px;
+    }
+
+    .btn-join-pill {
+        display: none;
+    }
+}

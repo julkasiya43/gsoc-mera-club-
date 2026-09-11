@@ -1,0 +1,115 @@
+.floating-card {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background: rgba(13, 8, 34, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-md);
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 20px -5px rgba(168, 85, 247, 0.2);
+    pointer-events: auto;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: float 7s ease-in-out infinite;
+    cursor: default;
+}
+
+.floating-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 16px 40px -5px rgba(0, 0, 0, 0.6), 0 0 35px 2px rgba(168, 85, 247, 0.4);
+}
+
+.floating-card-inner {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.floating-card-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(6, 182, 212, 0.1));
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.floating-card:hover .floating-card-icon {
+    transform: scale(1.08);
+}
+
+.floating-card-icon img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.floating-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: left;
+}
+
+.floating-card-title {
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.floating-card-subtitle {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+/* Floating Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-14px) rotate(1deg);
+    }
+}
+
+/* Individual Card Positions */
+.floating-card.ml {
+    top: 36%;
+    left: 7%;
+    animation-delay: 0s;
+}
+
+.floating-card.events {
+    bottom: 22%;
+    left: 10%;
+    animation-delay: 1.8s;
+}
+
+.floating-card.github {
+    top: 36%;
+    right: 7%;
+    animation-delay: 0.8s;
+}
+
+.floating-card.gsoc {
+    bottom: 22%;
+    right: 10%;
+    animation-delay: 2.4s;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .floating-card {
+        display: none;
+    }
+}

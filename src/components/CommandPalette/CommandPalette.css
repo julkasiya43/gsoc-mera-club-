@@ -1,0 +1,234 @@
+/* ===== COMMAND PALETTE (RAYCAST / LINEAR STYLE) ===== */
+.cmd-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(4, 2, 10, 0.75);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 14vh;
+    animation: cmdFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cmd-modal {
+    width: 100%;
+    max-width: 640px;
+    background: linear-gradient(145deg, #130c2c 0%, #090616 100%);
+    border: 1px solid rgba(168, 85, 247, 0.35);
+    border-radius: 20px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.7), 0 0 32px rgba(168, 85, 247, 0.25);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: cmdSlideDown 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes cmdFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes cmdSlideDown {
+    from {
+        opacity: 0;
+        transform: scale(0.96) translateY(-12px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Input Bar */
+.cmd-input-bar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.cmd-search-icon {
+    color: #c084fc;
+    flex-shrink: 0;
+}
+
+.cmd-search-input {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.cmd-search-input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.cmd-kbd-esc {
+    padding: 3px 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    font-family: var(--font-mono, monospace);
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cmd-kbd-esc:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+/* Copied banner */
+.cmd-copied-banner {
+    padding: 8px 24px;
+    background: rgba(16, 185, 129, 0.2);
+    border-bottom: 1px solid rgba(16, 185, 129, 0.4);
+    font-size: 12px;
+    color: #34d399;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Commands List */
+.cmd-list {
+    max-height: 380px;
+    overflow-y: auto;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(168, 85, 247, 0.3) transparent;
+}
+
+.cmd-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.cmd-item:hover,
+.cmd-item.selected {
+    background: linear-gradient(90deg, rgba(168, 85, 247, 0.25), rgba(0, 210, 255, 0.15));
+    box-shadow: 0 0 16px rgba(168, 85, 247, 0.2);
+}
+
+.cmd-item-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.cmd-item-icon {
+    font-size: 18px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cmd-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cmd-item-title {
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.cmd-item-cat {
+    font-family: var(--font-mono, monospace);
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.45);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.cmd-shortcut {
+    padding: 2px 7px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    font-family: var(--font-mono, monospace);
+    font-size: 11px;
+    color: #c084fc;
+    font-weight: 600;
+}
+
+.cmd-empty {
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+}
+
+/* Footer */
+.cmd-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 11.5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cmd-footer-keys {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cmd-footer-keys span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cmd-footer-keys kbd {
+    padding: 2px 5px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    font-family: var(--font-mono, monospace);
+    font-size: 10px;
+    color: #e2e8f0;
+}
+
+.cmd-footer-brand {
+    font-family: var(--font-heading);
+    font-size: 11px;
+    color: #c084fc;
+    letter-spacing: 0.03em;
+}
+
+@media (max-width: 768px) {
+    .cmd-backdrop {
+        padding-top: 6vh;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .cmd-footer-keys {
+        display: none;
+    }
+}

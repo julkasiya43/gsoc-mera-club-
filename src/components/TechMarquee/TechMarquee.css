@@ -1,0 +1,101 @@
+.tech-marquee-section {
+    width: 100%;
+    padding: 24px 0 40px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.tech-marquee-header {
+    text-align: center;
+}
+
+.marquee-pretitle {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+
+.marquee-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+}
+
+.marquee-track {
+    display: flex;
+    gap: 14px;
+    width: max-content;
+    animation: marquee-scroll 35s linear infinite;
+}
+
+.marquee-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.marquee-chip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 16px;
+    background: var(--color-bg-card);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-full);
+    transition: all 0.25s ease;
+    cursor: default;
+    white-space: nowrap;
+}
+
+.marquee-chip:hover {
+    border-color: var(--border-active);
+    background: var(--color-bg-surface);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px var(--glow-primary);
+}
+
+.marquee-chip-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee-chip-icon img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.marquee-chip-name {
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.marquee-chip-tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--color-brand-cyan);
+    background: var(--color-bg-tertiary);
+    padding: 2px 7px;
+    border-radius: 9999px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}

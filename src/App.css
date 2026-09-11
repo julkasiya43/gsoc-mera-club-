@@ -1,0 +1,57 @@
+/* App-level styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.header {
+  view-transition-name: app-header;
+}
+
+.footer {
+  view-transition-name: app-footer;
+}
+
+.route-content {
+  min-height: 100vh;
+  view-transition-name: route-content;
+}
+
+::view-transition-old(route-content) {
+  animation: route-exit var(--motion-duration-page) var(--motion-ease-standard) both;
+}
+
+::view-transition-new(route-content) {
+  animation: route-enter var(--motion-duration-page) var(--motion-ease-standard) both;
+}
+
+::view-transition-old(app-header),
+::view-transition-new(app-header),
+::view-transition-old(app-footer),
+::view-transition-new(app-footer) {
+  animation: none;
+}
+
+@keyframes route-enter {
+  from {
+    opacity: 0;
+    transform: translateY(var(--motion-distance-page));
+  }
+}
+
+@keyframes route-exit {
+  to {
+    opacity: 0;
+    transform: translateY(calc(var(--motion-distance-page) * -0.5));
+  }
+}

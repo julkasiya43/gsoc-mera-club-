@@ -1,0 +1,114 @@
+/* ===== 3D RUBIK'S CUBE MINI WIDGET ===== */
+.rubiks-widget-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 18px 8px 12px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    border-radius: 9999px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.rubiks-widget-container:hover {
+    background: rgba(168, 85, 247, 0.15);
+    border-color: #c084fc;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.35);
+}
+
+.rubiks-3d-scene {
+    width: 32px;
+    height: 32px;
+    perspective: 400px;
+}
+
+.rubiks-3d-cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(-22deg) rotateY(32deg);
+    transition: transform 0.6s ease;
+    animation: autoSpinCube 8s linear infinite;
+}
+
+.rubiks-widget-container:hover .rubiks-3d-cube {
+    animation-duration: 2.5s;
+}
+
+.rubiks-3d-scene.twisting .rubiks-3d-cube {
+    animation: cubeTwistAction 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes autoSpinCube {
+    0% {
+        transform: rotateX(-22deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-22deg) rotateY(360deg);
+    }
+}
+
+@keyframes cubeTwistAction {
+    0% {
+        transform: rotateX(-22deg) rotateY(0deg) scale(1);
+    }
+    50% {
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(90deg) scale(1.25);
+    }
+    100% {
+        transform: rotateX(-22deg) rotateY(360deg) scale(1);
+    }
+}
+
+/* 6 Faces of the cube (size 32px => translateZ(16px)) */
+.rubiks-face {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #000;
+    border: 1px solid #111;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5px;
+    padding: 1.5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.rubiks-face-front  { transform: rotateY(0deg) translateZ(16px); }
+.rubiks-face-back   { transform: rotateY(180deg) translateZ(16px); }
+.rubiks-face-right  { transform: rotateY(90deg) translateZ(16px); }
+.rubiks-face-left   { transform: rotateY(-90deg) translateZ(16px); }
+.rubiks-face-top    { transform: rotateX(90deg) translateZ(16px); }
+.rubiks-face-bottom { transform: rotateX(-90deg) translateZ(16px); }
+
+/* Mini Facet Tiles */
+.mini-facet {
+    border-radius: 1px;
+    transition: filter 0.2s ease;
+}
+
+.mini-facet.f-cyan    { background: #00d2ff; }
+.mini-facet.f-violet  { background: #a855f7; }
+.mini-facet.f-emerald { background: #10b981; }
+.mini-facet.f-amber   { background: #f59e0b; }
+.mini-facet.f-ruby    { background: #ec4899; }
+.mini-facet.f-indigo  { background: #6366f1; }
+
+.mini-facet.core {
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.rubiks-widget-label {
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 600;
+    color: #e2e8f0;
+    letter-spacing: 0.02em;
+}

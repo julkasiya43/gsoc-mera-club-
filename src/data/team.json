@@ -1,0 +1,1381 @@
+{
+  "tenures": [
+    {
+      "id": "2026-27",
+      "name": "2026-27 Tenure",
+      "badge": "Active Tenure",
+      "subtitle": "Present Members & Innovators driving open source development, community initiatives, and technical tracks.",
+      "departments": [
+        {
+          "title": "Present Members",
+          "members": [
+            {
+              "name": "Ashish Raj",
+              "role": "President",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/ashish-raj-504760319"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/AshishRaj1901"
+                }
+              ]
+            },
+            {
+              "name": "Tanisha Deshpande",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/tanisha-deshpande-56297037a"
+                }
+              ]
+            },
+            {
+              "name": "Rudraksha Gaharwar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/rudraksha-gaharwar-a1a0ab386"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/rudraksha7766/Cafe-management-system"
+                }
+              ]
+            },
+            {
+              "name": "Mousumi Parida",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/mousumi-parida-706b0b315/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Mousumiparida123456/trust_os"
+                }
+              ]
+            },
+            {
+              "name": "Prakhar Patil",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/prakhar-patil-8989p1/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/prakhar25mip10148-bit"
+                }
+              ]
+            },
+            {
+              "name": "Slokita Ghosh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/slokita-ghosh"
+                }
+              ]
+            },
+            {
+              "name": "Shubh Thadani",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/shubhthadani"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/ShubhThadani17/Gym-App"
+                }
+              ]
+            },
+            {
+              "name": "Swastik Sinha",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/swastiksinha1"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/swastiksinha1/ai-career-copilot"
+                }
+              ]
+            },
+            {
+              "name": "Manvendra Vikram Singh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/vmanvs"
+                }
+              ]
+            },
+            {
+              "name": "Vikas Tiwari",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/vikas-tiwari-355264410/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/vikastiwari44455-boop/telegram-ai-bot"
+                }
+              ]
+            },
+            {
+              "name": "Abhishrey Sharma",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/abhishrey-sharma-4054143bb"
+                }
+              ]
+            },
+            {
+              "name": "Manasvi Shrivastava",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "http://www.linkedin.com/in/manasvi-shrivastava-828b81326"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/manasvigit2415/AI-LEARNING-BUDDY.git"
+                }
+              ]
+            },
+            {
+              "name": "Aman Kumar Singh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/datguyaman/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Datguy-rgb/Employee-Management-System"
+                }
+              ]
+            },
+            {
+              "name": "Himanshu Nath Tripathi",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/himanshu-nath-tripathi-0b3374296"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/himanshunath007/emotion-detection"
+                }
+              ]
+            },
+            {
+              "name": "Shriya Parmar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/shriya-parmar-4347473b9"
+                }
+              ]
+            },
+            {
+              "name": "Soham Das",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://in.linkedin.com/in/soham-das-057a3936b"
+                }
+              ]
+            },
+            {
+              "name": "Sameer Gera",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/sameer-gera-8a4a732a2/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/SameerGera/Kiri"
+                }
+              ]
+            },
+            {
+              "name": "Prerna Bajpai",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/prerna-bajpai-0b93a0385"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/prerna30-arch/CodeAlpha_StudentGradeTracker"
+                }
+              ]
+            },
+            {
+              "name": "Sri Charan",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/sricharan1258"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Sricharan-S12"
+                }
+              ]
+            },
+            {
+              "name": "Riddhima Saluja",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/riddhima-s-478146380/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/riddhima25bet10005-a11y/SOS-app"
+                }
+              ]
+            },
+            {
+              "name": "Jishant Tanwar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/jishant-tanwar-0a5991333/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Jishanttanwar/health-hack-project"
+                }
+              ]
+            },
+            {
+              "name": "Mohd Suhaib Khan",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/contact-mohd-suhaib-khan"
+                }
+              ]
+            },
+            {
+              "name": "Pranati Singh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/pranati-singh-0a9aa7384"
+                }
+              ]
+            },
+            {
+              "name": "Riddhi Garg",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/riddhigarg--/"
+                }
+              ]
+            },
+            {
+              "name": "Anmol Kumar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/anmolkumar153/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/AnmolKumar153/CYBERFLUX"
+                }
+              ]
+            },
+            {
+              "name": "Kushagra Mishra",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/kushagra-mishra"
+                }
+              ]
+            },
+            {
+              "name": "Pranav Ranjan",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/pranav-ranjan-29838236b"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/pranavyash2202-tech/Symptom-Checker"
+                }
+              ]
+            },
+            {
+              "name": "Arpan Akar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/arpan-akar"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/ArpanAkar-bit"
+                }
+              ]
+            },
+            {
+              "name": "Bhagyashree Sethiya",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/bhagyashree-sethiya-27bbb4333"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/BhagyashreeSethiya"
+                }
+              ]
+            },
+            {
+              "name": "Ayushman Patri",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/ayushman-patri-b2a4643a5"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/ayushman25bhi10100-727/Health-manager-application"
+                }
+              ]
+            },
+            {
+              "name": "Diksha Dutta",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/diksha-dutta-768125381"
+                }
+              ]
+            },
+            {
+              "name": "Sankalp Soni",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/sankalp-soni-088114355"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/sankalpsoni-cyber/encrypted-lan-chat"
+                }
+              ]
+            },
+            {
+              "name": "Sourish Shaw",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/sourish-shaw-517934369"
+                }
+              ]
+            },
+            {
+              "name": "Pari Bansal",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/pari-bansal-818389387"
+                }
+              ]
+            },
+            {
+              "name": "Drishan Shandilya",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/drishan-shandilya-729779424"
+                }
+              ]
+            },
+            {
+              "name": "Irfan Alam Ansari",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/irfan-a-5440b51b8"
+                }
+              ]
+            },
+            {
+              "name": "Mahi Gupta",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/mahi-gupta-2b3566367"
+                }
+              ]
+            },
+            {
+              "name": "Riddhiman Dutta",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/riddhiman-dutta-970191294/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/riddhiman93/Weather-App-HTML-CSS-JavaScript-"
+                }
+              ]
+            },
+            {
+              "name": "Arush Mishra",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/arush-mishra-657b76240"
+                }
+              ]
+            },
+            {
+              "name": "Vrinda Jain",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/vrinda-jain-b10824393"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/jainvrinda2006-stack/student_management_system"
+                }
+              ]
+            },
+            {
+              "name": "Yashi Bhushan",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/yashi-bhushan-184a92381"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/yashi25bce10824-stack/FAKE-NEWS-DETECTION"
+                }
+              ]
+            },
+            {
+              "name": "Harsh Panchal",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/harsh--panchal"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Harsh-Panchal-1/FarmSarthi"
+                }
+              ]
+            },
+            {
+              "name": "Parv Jain",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/parv-jain-12p112005"
+                }
+              ]
+            },
+            {
+              "name": "Sweety Kumari",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/Sweety Kumari"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/sweety25bai10432-collab"
+                }
+              ]
+            },
+            {
+              "name": "Isha Ojha",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/isha-ojha-521189423"
+                }
+              ]
+            },
+            {
+              "name": "Akshat Pillai",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/akshat-pillai-707aa4339/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/AkshatPillai26/Text-To-Handwriting.git"
+                }
+              ]
+            },
+            {
+              "name": "Shakti Kumar Chaturvedi",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/shxtii"
+                }
+              ]
+            },
+            {
+              "name": "Anmol Panjwani",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/anmol-panjwani-0b6407379"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Anmol25bai10354/AI--CAREER--ASSISSTANT"
+                }
+              ]
+            },
+            {
+              "name": "Nisha Yadav",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/nishaayadav/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/nisha25bai11483/library-management-system.py"
+                }
+              ]
+            },
+            {
+              "name": "Madhuchanda Chakraborty",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/madhuchanda-chakraborty-8098bb236/"
+                }
+              ]
+            },
+            {
+              "name": "Ridhima Pandey",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/ridhima-pandey-980a21270"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/panridhima07"
+                }
+              ]
+            },
+            {
+              "name": "Aditi Jha",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/aditi-jha-438065263"
+                }
+              ]
+            },
+            {
+              "name": "Aditya Sharma",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/aditya-sharma-8a43113bb"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/aditya17sharma10-cpu/Hotel-management-system.git"
+                }
+              ]
+            },
+            {
+              "name": "Utkarsh Singh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/utkarsh-singh-7ab287384"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/UtkarshS10/Weather_App"
+                }
+              ]
+            },
+            {
+              "name": "Adit Prasad",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/adit-prasad-45525530a/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/IronMan-47/Financial-Spending-Behaviour-Classifier.git"
+                }
+              ]
+            },
+            {
+              "name": "Saumy Gupta",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/saumy-gupta-a58a823a2/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/saumygupta01/AI-Disease-Detection-System.git"
+                }
+              ]
+            },
+            {
+              "name": "Divyansh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/divyanshsin305"
+                }
+              ]
+            },
+            {
+              "name": "Shagun Sharma",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/shagun-sharma-2549953b9"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/shagun25bai10074-oss/vityarthi-project-credit-card-fraud-detection"
+                }
+              ]
+            },
+            {
+              "name": "Saurabh Kumar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/saurabh-kumar-199731372"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Saurabh-Kumar0109/online-job-management-system"
+                }
+              ]
+            },
+            {
+              "name": "Krishna Singh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/krishna-singh-09a7a0415"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/krishna25bai10124-code"
+                }
+              ]
+            },
+            {
+              "name": "Atharva Singh",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/atharva-singh3076"
+                }
+              ]
+            },
+            {
+              "name": "Sumit Singh Thakur",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/sumit-singh-thakur-54641b38a"
+                }
+              ]
+            },
+            {
+              "name": "Yuvika Mukherjee",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/yuvika-mukherjee-4b6401268/"
+                }
+              ]
+            },
+            {
+              "name": "Sarthak Khandelwal",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/sarthak-khandelwal"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Sarthak-07-sps/Habit_Tracker"
+                }
+              ]
+            },
+            {
+              "name": "Vineha Gupta",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/vinehagupta"
+                }
+              ]
+            },
+            {
+              "name": "Shreya Dhawan",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/shreya-dhawan-a76556374"
+                }
+              ]
+            },
+            {
+              "name": "Ayush Saxena",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://in.linkedin.com/in/ayush-saxena-7a7049281"
+                }
+              ]
+            },
+            {
+              "name": "Nikhil Kumar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/nikhil-kumar-186704338/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/NIKHIL5658/Cafe-Billing-System-"
+                }
+              ]
+            },
+            {
+              "name": "Siya Julka",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/siyajulka43"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/julkasiya43/portfolio"
+                }
+              ]
+            },
+            {
+              "name": "Soumyadeep Giri",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/soumyadeep-giri-37458937b"
+                }
+              ]
+            },
+            {
+              "name": "Adil Sukumar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/adilsukumar"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/adilsukumar/Pawsitive_Diagnostics"
+                }
+              ]
+            },
+            {
+              "name": "Abhinav Kumar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/abhi-builds-ai"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/BuildWithMujhe/resume-website-html.git"
+                }
+              ]
+            },
+            {
+              "name": "Tanveer Mansuri",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/tanveer-mansuri/"
+                }
+              ]
+            },
+            {
+              "name": "Ishan Shrivastava",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/ishan-shrivastava-04b705280/"
+                }
+              ]
+            },
+            {
+              "name": "Shubh Gupta",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/shubh-gupta-47b0b3325"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Shubh16Gupta/bankmind-shubh"
+                }
+              ]
+            },
+            {
+              "name": "Shalini Pal",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/shalini-pal-74a487381"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/shalinipal2209/SYMPTOM-CHECKER"
+                }
+              ]
+            },
+            {
+              "name": "Anushka Mathur",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://in.linkedin.com/in/anushka-mathur-a2a8b42ba"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/nush08-ma/Snake-Game-cpp.git"
+                }
+              ]
+            },
+            {
+              "name": "Pari Goel",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/iparigoel"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/iparigoel/securevault"
+                }
+              ]
+            },
+            {
+              "name": "Aritra Sikder",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/aritra-sikder-143751381"
+                }
+              ]
+            },
+            {
+              "name": "Sneha Rakundla",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/sneha-rakundla-653a91324/"
+                }
+              ]
+            },
+            {
+              "name": "Venya Rajput",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/venya-rajput-02595633a"
+                }
+              ]
+            },
+            {
+              "name": "Joydeep Samanta",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/joydeep-samanta/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Joydeep10-py/student-placement-predictor"
+                }
+              ]
+            },
+            {
+              "name": "Vidhi Sharma",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/vidhi-sharma7v1i1d"
+                }
+              ]
+            },
+            {
+              "name": "Ayonija Tripathi",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/ayonija-tripathi-603a44380"
+                }
+              ]
+            },
+            {
+              "name": "Tanisha",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/tanisha-ahuja-aa4094387"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/tanisha25bce10578/Weather-to-Wardrobe-Advisor.git"
+                }
+              ]
+            },
+            {
+              "name": "Fatema Saify",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/fatema-saify/"
+                }
+              ]
+            },
+            {
+              "name": "Nair Pavithra Premji",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/nair-pavithra-premji-85003432a"
+                }
+              ]
+            },
+            {
+              "name": "Diya Tanwani",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/diya-tanwani-894414328"
+                }
+              ]
+            },
+            {
+              "name": "Alankrit Sajwan",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/alankrit-sajwan-83a935378"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/alankrit25bai10512-tech"
+                }
+              ]
+            },
+            {
+              "name": "Paras Pitu Wadkar",
+              "role": "Team Member",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/paras-wadkar/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/ParasWadkar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-26",
+      "name": "2025-26 Tenure",
+      "badge": "Leadership & Executive Council",
+      "subtitle": "The foundational leadership council and domain heads who steered the club's flagship events, technical mentorship, and outreach.",
+      "departments": [
+        {
+          "title": "Executive Council",
+          "members": [
+            {
+              "name": "Ashish Raj",
+              "role": "President",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/ashish-raj-504760319"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/AshishRaj1901"
+                }
+              ]
+            },
+            {
+              "name": "Raunit Kumar Singh",
+              "role": "General Secretary",
+              "image": "",
+              "socials": []
+            },
+            {
+              "name": "Apoorva Singh",
+              "role": "Assistant General Secretary",
+              "image": "",
+              "socials": []
+            },
+            {
+              "name": "Bindupautra Jyotibrat",
+              "role": "Tech Lead",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "github",
+                  "url": "https://github.com/jyotibrat"
+                },
+                {
+                  "platform": "linkedin",
+                  "url": "https://linkedin.com/in/jyotibrat"
+                }
+              ]
+            },
+            {
+              "name": "Shraddha Sinha",
+              "role": "Event Operations Head",
+              "image": "",
+              "socials": []
+            },
+            {
+              "name": "Tejas Tandon",
+              "role": "Finance Head",
+              "image": "",
+              "socials": []
+            },
+            {
+              "name": "Diya Tanwani",
+              "role": "Design Head",
+              "image": "",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/diya-tanwani-894414328"
+                }
+              ]
+            },
+            {
+              "name": "Shreya Praksh",
+              "role": "Content & Documentation Head",
+              "image": "",
+              "socials": []
+            },
+            {
+              "name": "Atiksh Prasad",
+              "role": "PR & Outreach Head",
+              "image": "",
+              "socials": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "founding-members",
+      "name": "Founding Members",
+      "badge": "Pillars of the Club",
+      "subtitle": "The visionary founders who established the GSoC Innovators Club and laid the groundwork for our open-source legacy.",
+      "departments": [
+        {
+          "title": "Founding Board",
+          "members": [
+            {
+              "name": "Ankur Prajapati",
+              "role": "Founding Member",
+              "image": "/Founding Members/Ankur Prajapati.jpg",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/ankur-prajapati-a38b5a251/"
+                }
+              ]
+            },
+            {
+              "name": "Anshuman Ray",
+              "role": "Founding Member",
+              "image": "/Founding Members/Anshuman Ray.png",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/ayushman-ray-16b265251/"
+                }
+              ]
+            },
+            {
+              "name": "Deepesh Kabra",
+              "role": "Founding Member",
+              "image": "/Founding Members/DEEPESH.png",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/deepesh-kabra-0aa027252/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Deepeshkabra"
+                },
+                {
+                  "platform": "instagram",
+                  "url": "https://www.instagram.com/deepesh_kabra/"
+                }
+              ]
+            },
+            {
+              "name": "Harsh Jain",
+              "role": "Founding Member",
+              "image": "/Founding Members/Harsh Jain.jpeg",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/hjworks17/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/Hj-codes"
+                }
+              ]
+            },
+            {
+              "name": "Himanshu Gupta",
+              "role": "Founding Member",
+              "image": "/Founding Members/Himanshu Gupta.jpg",
+              "socials": [
+                {
+                  "platform": "linkedin",
+                  "url": "https://www.linkedin.com/in/himanshyou/"
+                },
+                {
+                  "platform": "github",
+                  "url": "https://github.com/himansh-you"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

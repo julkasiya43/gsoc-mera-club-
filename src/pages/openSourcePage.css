@@ -1,0 +1,40 @@
+.open-source-page {
+    position: relative;
+    min-height: 100vh;
+    background-color: var(--color-bg-primary);
+    padding-top: 130px;
+    padding-bottom: 90px;
+    overflow: hidden;
+}
+
+.open-source-page-bg-gradient {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    -webkit-mask-image: radial-gradient(circle at center, black 30%, transparent 60%);
+    mask-image: radial-gradient(circle at center, black 30%, transparent 60%);
+}
+
+.open-source-page-bg-gradient img {
+    width: 100%;
+    height: auto;
+}
+
+.open-source-events {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .open-source-page {
+        padding-top: 110px;
+    }
+}

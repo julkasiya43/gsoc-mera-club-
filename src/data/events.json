@@ -1,0 +1,77 @@
+{
+  "upcomingEvents": [],
+  "pastEvents": [
+    {
+      "id": "socf-2.0",
+      "name": "Summer of CodeFest 2.0",
+      "category": "Hackathon & Seminar",
+      "status": "Completed",
+      "date": "April 13-14, 2025",
+      "venue": "AB-2 Auditorium, VIT Bhopal",
+      "time": "09:00 AM onwards",
+      "description": "Summer of CodeFest 2.0 featured an intensive 24-hour innovation hackathon paired with masterclasses on navigating Google Summer of Code organizations, writing winning proposals, and building scalable open-source projects.",
+      "highlights": [
+        "24-Hour continuous project development hackathon",
+        "Specialized workshop on GSoC proposal writing",
+        "Evaluation by faculty coordinators & senior engineers",
+        "Prize distribution & community recognition"
+      ],
+      "posterUrl": "/Components/SOCF_2.0.png",
+      "socialLink": "https://www.linkedin.com/posts/gsoc-innovators_summerofcodefest25-hackathon-coding-activity-7327258229762117632-WQJ1"
+    },
+    {
+      "id": "campus-unleashed",
+      "name": "Campus Unleashed",
+      "category": "Flagship Orientation & Tech Talk",
+      "status": "Completed",
+      "date": "September 20, 2025",
+      "venue": "Auditorium 1, VIT Bhopal",
+      "time": "02:00 PM - 05:00 PM",
+      "description": "Campus Unleashed kicked off the academic year with an energetic introduction to open-source culture, club roadmap, live coding demonstrations, interactive technical games, and hands-on guidance on making first open source pull requests.",
+      "highlights": [
+        "Over 350+ enthusiastic attendees across campus",
+        "Interactive Git & GitHub bootcamp session",
+        "Q&A panel with successful GSoC alumni",
+        "Launch of the GSoC Innovators Club contributor initiatives"
+      ],
+      "posterUrl": "/Components/Campus_Unleashed.png",
+      "socialLink": "https://www.linkedin.com/company/gsoc-innovators-club/"
+    },
+    {
+      "id": "cinemaghar",
+      "name": "CinemaGhar",
+      "category": "Community & Cultural",
+      "status": "Completed",
+      "date": "February 28, 2026",
+      "venue": "AB-2 Auditorium-2, VIT Bhopal",
+      "time": "11:00 AM - 02:00 PM",
+      "description": "A community bonding and celebration event where club members and tech enthusiasts gathered for an interactive movie screening of Chhichhore, peer networking, fun quizzes, and team engagement.",
+      "highlights": [
+        "Community-voted special screening event",
+        "Interactive tech quizzes and engagement games",
+        "Peer networking across batches and domains",
+        "Housefull turnout with vibrant community spirit"
+      ],
+      "posterUrl": "/Components/Cinemaghar.jpeg",
+      "socialLink": "https://www.linkedin.com/posts/gsoc-innovators_opensource-techcommunity-gsocinnovatorsclub-activity-7436354197416984576-43Z_"
+    },
+    {
+      "id": "socf-1",
+      "name": "Summer Of CodeFest",
+      "category": "Inaugural Hackathon",
+      "status": "Completed",
+      "date": "May 18-19, 2024",
+      "venue": "Online / VIT Bhopal",
+      "time": "10:00 AM onwards",
+      "description": "The inaugural edition that started it all — Summer Of CodeFest brought the open-source spirit to the university, giving students their first structured hackathon experience oriented around real open-source repos.",
+      "highlights": [
+        "Inaugural hackathon of GSoC Innovators Club",
+        "Introductory guidance on Git branching & PR workflows",
+        "15+ project submissions created and open-sourced",
+        "Laying the foundation for our 100+ member community"
+      ],
+      "posterUrl": "/Components/SOCF_Edition1.png",
+      "socialLink": "https://www.linkedin.com/company/gsoc-innovators-club/"
+    }
+  ]
+}
