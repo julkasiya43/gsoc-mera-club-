@@ -11,7 +11,7 @@ GSoC Innovators Club Website
 
 Official website of the **GSoC Innovators Club**, VIT Bhopal University.
 
-**Live Website:** **https://gsoc-innovators-club-vitb.vercel.app/**
+
 
 </div>
 
